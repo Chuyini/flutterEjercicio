@@ -178,10 +178,11 @@ void main() {
   };
 
 
+//acceder al vlor del map
 
+  scores['jorge'] = 298;
 
   print(scors['jorge']); //acceder al valor
-
 
 
 
@@ -206,6 +207,13 @@ void main() {
 
 
 }
+
+
+
+
+//FUNCIONES
+
+//Indicar siempre el tipo de dato de retorno
 
 
 bool isNewPlayer(){
