@@ -33,7 +33,7 @@ void main() {
 
   algo = 2;
   //Dinamic quiere decir que ese tipo de dato puede cambiar en tiempo de ejecución
-  dynamic algo2  = "abc";//<-- mas clara que usar object
+  dynamic algo2  = "abc";//<-- mas clara que usar object pero se puede usar object
 
   //nulleable --> puede contener un null
 
@@ -66,8 +66,11 @@ void main() {
 
   //const por otro lado en el mismo momento que se define
 
-  //final --> tiempo de ejecucion
-  //const --> tiempo de compilacion
+
+  //const y final solo se pueden definir una vez
+
+  //final --> tiempo de ejecucion, es decir se puede no definir al princpio (antes de compilar)
+  //const --> tiempo de compilacion, sed tiene que definir al principio (antes de compliar)
 
   /*Tipos de datos
   *
@@ -136,7 +139,7 @@ void main() {
 
   //tambien sive por ejemplo si una lista tiene null
   var list5;
-  var list6= [0,...?list5];//<-- marcará un exception pero con ? decimos que nome nul como 0
+  var list9= [0,...?list5];//<-- marcará un exception pero con ? decimos que Tome null como 0
 
  //tambien se puede hacer proceso logicas dentro de la creaciíon de la lista
 
@@ -165,7 +168,7 @@ void main() {
 
   //Tipo mapas que son muy párecidos a los objetos json
 
-  //cunado es explicito deber tener los dos tipos de datos
+  //cuando es explicito deber tener los dos tipos de datos
 
   //Expliciito implicito
   var scores = {"joe":22, "lola":12};
