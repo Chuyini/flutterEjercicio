@@ -8,5 +8,6 @@ void main(){
 
   Object? score; //String||bull
   Null nulo=null;
-
+//type promotion = promocion del tipo
+//prometemos que nunca se null una variable
 }
