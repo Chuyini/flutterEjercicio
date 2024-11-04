@@ -38,7 +38,9 @@ mixin ItemActions on Book{ //<-- restingimos el mixin para que solo los que
 mixin PermanentItemActions{
 
   void sell() {
+
     //Prestar
+
     print("vender");
   }
 
