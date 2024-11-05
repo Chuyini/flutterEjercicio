@@ -47,6 +47,7 @@ mixin PermanentItemActions{
 }
 
 abstract class Book  { //<-- aqui estamos usandos dos mixin
+
   int pages = 0;
   String title = "";
 
@@ -54,9 +55,13 @@ abstract class Book  { //<-- aqui estamos usandos dos mixin
 }
 
 class ChildrenBook extends Book with ItemActions, PermanentItemActions{
+
   int maxAge = 20;
+
 }
 
 class NoteBook with PermanentItemActions{
+
   int price = 100;
+
 }
